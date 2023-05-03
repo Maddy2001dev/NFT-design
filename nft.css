@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:active{
+    color:hsl(178, 100%, 50%);
+}
+.link {
+    font-weight: 600;
+    margin-left: 3%;
+    
+    
+}
+
+body{
+    font-family: outfit;
+    background-color: hsl(217, 54%, 11%);
+}
+.card{
+    margin: 10% auto;
+    width: 20%;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 4%;
+    box-shadow: 0px 0px 5px 5px hsl(216, 24%, 8%);   
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+.eth-image{
+    width: 70%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 2px; 
+    
+   
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    
+}
+.eth-flex{
+    display: flex;
+
+    padding-left: 3%;
+}
+.clock-flex{
+    display: flex;
+    padding-right: 3%;    
+}
+h3 {
+    color: white;
+    font-weight: 600;
+    padding-left: 3%;
+    padding-top: 4%;
+    margin-bottom: 8%;
+}
+.paragh{
+    color: hsl(216, 15%, 43%);
+    font-weight: 400;
+    padding-left: 3%;
+}
+h5{
+    color: hsl(178, 100%, 50%);
+    margin-left:10%;
+}
+.day{
+    color: hsl(216, 15%, 43%);
+}
+.clock{
+    margin-right: 5px;
+}
+.under-flex{
+    display: flex;
+    
+}
+
+.bottom-line{
+    margin-top: 5%;
+    color: hsl(216, 15%, 43%);
+    
+}
+.avatar{
+    width: 13%;
+    margin: 3%;
+}
+hr {
+    opacity: 10%;
+    width: 95%;
+    margin: 3% auto;   
+}
